@@ -53,9 +53,12 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Software Engineer', 'Java', 'Spring'],
+    strings: ['Software Engineer', 'Passionate about technological innovations and creative solutions.',],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
 });
+
+
+
