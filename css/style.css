@@ -182,6 +182,13 @@ span {
     font-size: 4.5rem;
 }
 
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
@@ -240,6 +247,33 @@ span {
 .services-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 200px;
+    text-align: center;
+    background: var(--bg-color);
+    padding: 35px 45px;
+    border-radius: 8px;
+    transition: all .45s ease;
+}
+
+.s-icons i{
+    font-size: 36px;
+}
+.box:hover{
+    transform: translateY(-8px);
+}
+.box h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text-color);
 }
 
 .portfolio {
